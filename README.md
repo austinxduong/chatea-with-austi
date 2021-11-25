@@ -1,4 +1,4 @@
-# Chatty, or Chat Tea, with austi?
+# Chatty, or Chat Tea, with austi? 🌎 🌹
 
 #### Purpose: 
 - Honestly.... tired of hosting my work on SquareSpace (I love it though), plus its expensive. 
