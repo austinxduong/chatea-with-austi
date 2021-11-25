@@ -1,4 +1,4 @@
-# Chatty, or Chat Tea, with austi   🌎
+# Chatty, Chat Tea, with austi   🌎
 
 <em><div align=center> What's on your mind?</em></div>
 
