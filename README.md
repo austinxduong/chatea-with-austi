@@ -1,4 +1,12 @@
-# Next.js + Tailwind CSS Example
+# Chatty, or Chat Tea, with austi?
+
+#### Purpose: 
+- Honestly.... tired of hosting my work on SquareSpace (I love it though), plus its expensive. 
+- Also couldn't find the "ideal" blogging platform, implementation + cost that fits my needs. 
+- After 7 years, decided to build/host my own. Migrating all my writing content will be next goal
+
+
+### Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
