@@ -1,6 +1,6 @@
 # Chatty, or Chat Tea, with austi? 🌎 🌹
 
-#### Purpose: 
+#### Purpose 📜  : 
 
     ■ Honestly.... tired of hosting my work on SquareSpace (I love it though), plus its expensive. 
     ■ Also couldn't find the "ideal" blogging platform, implementation + cost that fits my needs. 
