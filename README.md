@@ -1,4 +1,4 @@
-# Chatty, or Chat Tea, with austi? 🌎
+# Chatty, or Chat Tea, with austi 🌎
 
 #### Purpose 📜  : 
 
