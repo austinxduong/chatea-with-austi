@@ -1,6 +1,9 @@
 # Chatty or Chat Tea, with austi?
 
-##Purpose: Tired of hosting my work on squarespace, plus its expensive. After all these years, decided to build/host my own.
+#### Purpose: 
+- Honestly.... tired of hosting my work on SquareSpace (I love it though), plus its expensive. 
+- Also couldn't find the "ideal" blogging platform, implementation + cost that fits my needs. 
+- After 7 years, decided to build/host my own. Migrating all my writing content will be next goal
 
 
 ### Next.js + Tailwind CSS Example
