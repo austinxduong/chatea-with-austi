@@ -9,7 +9,6 @@
 #### Tech Haul 🕊️ :
 ``  ■ Next.js
     ■ React
-    ■ Next.js
     ■ Tailwind CSS
     ■ SASS
     ■ GraphQL
