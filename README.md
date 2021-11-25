@@ -15,6 +15,8 @@
 - GraphCMS
 - Netlify
 
+#### Schema Modeling 🦌 : 
+
 ![imadethis](https://user-images.githubusercontent.com/78833034/143502621-a0259c43-747e-4321-a909-76ff2726391f.jpg)
 
 
