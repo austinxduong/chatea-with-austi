@@ -5,6 +5,9 @@
 - Also couldn't find the "ideal" blogging platform, implementation + cost that fits my needs. 
 - After 7 years, decided to build/host my own. Migrating all my writing content will be next goal
 
+![imadethis](https://user-images.githubusercontent.com/78833034/143502621-a0259c43-747e-4321-a909-76ff2726391f.jpg)
+
+
 
 ### Next.js + Tailwind CSS Example
 
