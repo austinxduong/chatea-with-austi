@@ -9,16 +9,28 @@
     ■ After 7 years, decided to build/host my own. Migrating all my writing content will be next goal
 
 #### Tech Haul 🕊️ :
-``  ■ Next.js
+``` 
+    ■ Next.js
     ■ React
     ■ Tailwind CSS
     ■ SASS
     ■ GraphQL
     ■ GraphCMS
     ■ Netlify
-``
+```
 
 #### Schema Modeling 🦌 : 
+```
+Model 1:
+    Author:
+        ■ Name
+        ■ Photo
+        ■ Bio
+Model 2:
+    Category:
+        ■ Name
+        ■ Slug
+```
 
 ![imadethis](https://user-images.githubusercontent.com/78833034/143502621-a0259c43-747e-4321-a909-76ff2726391f.jpg)
 
