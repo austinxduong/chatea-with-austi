@@ -3,7 +3,7 @@ import React, { useContext} from 'react'
 import Link from 'next/link';
 import { Categories } from '.';
 
-const categories = [{name: 'React', slug: 'react'}, {name: 'Professional Development', slug: 'professionaldevelopement'}]
+const categories = [{name: 'Personal Development', slug: 'Personal Development'}, {name: 'Professional Development', slug: 'professionaldevelopement'}]
 
 const Header = () => {
     return (
