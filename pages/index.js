@@ -8,7 +8,7 @@ const posts = [
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-10 mb-8 bg-blue-200">
+    <div className="container mx-auto px-10 mb-8 bg-green-100 opacity-80">
       <Head>
         <title>austinxduong</title>
         <link rel="icon" href="/favicon.ico" />
