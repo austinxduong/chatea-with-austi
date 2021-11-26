@@ -1,9 +1,27 @@
-# Chatty, or Chat Tea, with austi?
+# Chatty, Chat Tea, with austi   🌎
 
-#### Purpose: 
-- Honestly.... tired of hosting my work on SquareSpace (I love it though), plus its expensive. 
-- Also couldn't find the "ideal" blogging platform, implementation + cost that fits my needs. 
-- After 7 years, decided to build/host my own. Migrating all my writing content will be next goal
+<em><div align=center> What's on your mind?</em></div>
+
+#### Purpose 📜  : 
+
+    ■ Honestly.... tired of hosting my work on SquareSpace (I love it though), plus its expensive. 
+    ■ Also couldn't find the "ideal" blogging platform, implementation + cost that fits my needs. 
+    ■ After 7 years, decided to build/host my own. Migrating all my writing content will be next goal
+
+#### Tech Haul 🕊️ :
+``  ■ Next.js
+    ■ React
+    ■ Tailwind CSS
+    ■ SASS
+    ■ GraphQL
+    ■ GraphCMS
+    ■ Netlify
+``
+
+#### Schema Modeling 🦌 : 
+
+![imadethis](https://user-images.githubusercontent.com/78833034/143502621-a0259c43-747e-4321-a909-76ff2726391f.jpg)
+
 
 
 ### Next.js + Tailwind CSS Example
