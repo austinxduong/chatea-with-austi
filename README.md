@@ -9,7 +9,8 @@
     ■ After 7 years, decided to build/host my own. Migrating all my writing content will be next goal
 
 #### Tech Haul 🕊️ :
-``` ■ Next.js
+``` 
+    ■ Next.js
     ■ React
     ■ Tailwind CSS
     ■ SASS
