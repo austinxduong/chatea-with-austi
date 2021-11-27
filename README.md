@@ -41,6 +41,14 @@ Model 2:
 
 ```
 
+#### Tickets: 
+```
+■ Resolved:
+
+■ WIP: 
+
+```
+
 #### BackLog(s) 👾 :
 ```
 
