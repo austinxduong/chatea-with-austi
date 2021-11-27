@@ -62,6 +62,8 @@ Model 2:
    - Human Resources
    - Information Technology 
    - Sales & Marketing
+
+■ master partner = '[]'
    
 ■ vp
 ■ vp
