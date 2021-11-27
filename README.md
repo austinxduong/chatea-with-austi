@@ -41,7 +41,7 @@ Model 2:
 
 ```
 
-#### Tickets: 
+#### Ticket(s): 
 ```
 ■ Resolved:
 
