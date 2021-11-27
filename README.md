@@ -61,7 +61,7 @@ Model 2:
    - Operations
    - Human Resources
    - Information Technology 
-   - Sales & Marketing
+   - Sales/Marketing
 
 ■ master partner = '[]' => {
    
