@@ -63,7 +63,7 @@ Model 2:
    - Information Technology 
    - Sales & Marketing
 
-■ master partner = '[]'
+■ master partner = '[]' => {
    
 ■ vp
 ■ vp
@@ -72,6 +72,8 @@ Model 2:
 ■ vp
 ■ vp 
 ■ vp
+
+}
 
 ```
 
