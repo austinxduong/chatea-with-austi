@@ -54,7 +54,7 @@ Model 2:
 
 ```
 
-#### Leadership/Roles: 
+#### Leadership/Management: 
 ```
 ■ austi, owner:
    - Accounting/Finance
