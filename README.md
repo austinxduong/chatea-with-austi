@@ -63,7 +63,7 @@ Model 2:
    - Information Technology 
    - Sales/Marketing
 
-■ master partner = '[]' => {
+■ EVP master partner = '[]' => {
    
 ■ vp
 ■ vp
