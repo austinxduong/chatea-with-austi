@@ -41,7 +41,7 @@ Model 2:
 
 ```
 
-#### Ticket(s): 
+#### Ticket(s) 🦄 : 
 ```
 ■ Resolved:
 
@@ -54,7 +54,7 @@ Model 2:
 
 ```
 
-#### Leadership/Management: 
+#### Leadership/Management 🏰 : 
 ```
 ■ austi, owner:
    - Accounting/Finance
