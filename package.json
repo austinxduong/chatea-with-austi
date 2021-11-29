@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npn run build",
+    "build": "npm run build",
     "start": "next start"
 
   },
