@@ -4,7 +4,7 @@ import { getPosts } from '../services'
 
 export default function Home ({ posts }) {
   return (
-    <div className="container mx-auto px-10 mb-8 bg-green-100 opacity-80">
+    <div className="container mx-auto px-10 mb-8 bg-white opacity-95">
       <Head>
         <title>austinxduong</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
