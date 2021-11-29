@@ -31,6 +31,52 @@ Model 2:
         ■ Name
         ■ Slug
 ```
+#### Product Roadmap 🐎 :
+```
+
+```
+
+#### Enhancement Request(s) ✨ : 
+```
+
+```
+
+#### Ticket(s) 🦄 : 
+```
+■ Resolved:
+
+■ WIP: 
+
+```
+
+#### BackLog(s) 👾 :
+```
+
+```
+
+#### Leadership/Management 🏰 : 
+```
+■ austi, owner:
+   - Accounting/Finance
+   - Operations
+   - Human Resources
+   - Information Technology 
+   - Sales/Marketing
+
+master partner, svp = '[]' => {
+   
+■ vp
+■ vp
+■ vp
+■ vp
+■ vp
+■ vp 
+■ vp
+
+}
+
+```
+
 
 ![imadethis](https://user-images.githubusercontent.com/78833034/143502621-a0259c43-747e-4321-a909-76ff2726391f.jpg)
 
