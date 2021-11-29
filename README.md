@@ -42,8 +42,10 @@ Model 2:
 ```
 
 #### Ticket(s) 🦄 : 
-```
+```diff
 ■ Resolved:
++ Bug:"Warning: Each child in a list should have a unique “key” prop"
++ Bug: "Build Failed" - something about Netlify dependencies 
 
 ■ WIP: 
 
