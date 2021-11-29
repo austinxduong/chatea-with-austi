@@ -38,6 +38,7 @@ Model 2:
 
 #### Enhancement Request(s) ✨ : 
 ```
+- some spotify api in the future 🎶
 
 ```
 
