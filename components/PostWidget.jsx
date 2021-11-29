@@ -8,4 +8,4 @@ const PostWidget = () => {
     )
 }
 
-export default PostWidget
+export default PostWidget;
