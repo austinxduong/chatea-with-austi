@@ -30,6 +30,24 @@ Model 2:
     Category:
         ■ Name
         ■ Slug
+        ■ Post
+        
+Model 3:
+    Comment:
+        ■ Name
+        ■ Email
+        ■ Comment
+
+Model 4:
+    Post: 
+        ■ Title
+        ■ Slug
+        ■ Excerpt
+        ■ Content
+        ■ Featured Image
+        ■ Featured Post
+        ■ Author
+        ■ Categories
 ```
 #### Product Roadmap 🐎 :
 ```
