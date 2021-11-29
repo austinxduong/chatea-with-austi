@@ -45,7 +45,9 @@ Model 2:
 ```diff
 ■ Resolved:
 + Bug:"Warning: Each child in a list should have a unique “key” prop"
+    - passed in index as second argument, assign index to key prop. assigned node to post prop
 + Bug: "Build Failed" - something about Netlify dependencies 
+    - migrated to vercel
 
 ■ WIP: 
 
