@@ -21,7 +21,7 @@ const PostWidget = ({ categories, slug }) => {
     console.log(relatedPosts);
 
     return (
-        <div className="bg-white shadow-lg p-8 mb-8">
+        <div className="bg-white shadow-lg p-3 mb-3">
             PostWidget placeholder
         </div>
     )
