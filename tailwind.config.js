@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        rale: ["Raleway"],
+        rale: ["Raleway"]
       }
     },
   },
