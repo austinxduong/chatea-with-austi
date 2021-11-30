@@ -1,8 +1,27 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import Link from 'next/link';
+import moment from 'moment';
+import { getRecentPosts, getSimilarPosts } from '../services';
 
-const PostWidget = () => {
+
+const PostWidget = ({ categories, slug }) => {
+    const [relatedPosts, setRelatedPosts] = useState([]);
+    
+    useEffect(() => {
+        if(slug) {
+            getSimiliarPosts(categories, slug)
+                .then((result) => setRelatedPosts(result))
+        } else {
+            getRecentPosts()
+                .then((result) => setRelatedPosts(result))
+        }
+        
+    }, [slug])
+
+    console.log(relatedPosts);
+
     return (
-        <div>
+        <div className="bg-white shadow-lg p-3 mb-3">
             PostWidget placeholder
         </div>
     )
