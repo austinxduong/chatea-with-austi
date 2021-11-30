@@ -69,6 +69,12 @@ Model 4:
     - migrated to vercel
 
 ■ WIP: 
+- Bug: Font "Raleway" renders as global font family in local/dev environment. But prod renders "Playfair" as entire font family instead.
+    - attempted to create font family custom rule on tailwind.config file for raleway
+    - attempted to ensure matching names in global.scss for font family key/prop
+    - ensured correct import url for Raleway font
+    - ensured correct spelling for font name in targeted class
+    - cleared all cache in both chrome & brave browsers
 
 ```
 
