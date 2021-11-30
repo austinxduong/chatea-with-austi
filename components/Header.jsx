@@ -8,7 +8,7 @@ const categories = [{name: 'Personal Development', slug: 'Personal Development'}
 const Header = () => {
     return (
         <div className="container mx-auto px-10 mb-8">
-            <div className="border-b w-full inline-block border-blue-400 py-8">
+            <div className="border-b w-full inline-block border-red-100 py-8">
                 <div className="md:float-left block">
                 <Link href="/">
                     <span className="cursor-pointer font-Raleway text-4xl text-black">
