@@ -11,15 +11,15 @@ const Header = () => {
             <div className="border-b w-full inline-block border-blue-400 py-8">
                 <div className="md:float-left block">
                 <Link href="/">
-                    <span className="cursor-pointer font-play text-4xl text-black">
+                    <span className="cursor-pointer font-rale text-4xl text-black">
                         Chatty, Chatea, with Austi
                     </span>
                 </Link>
             </div>
-            <div className="hidden md:float-left md:contents">
+            <div className="hidden md:float-left md:contents font-rale">
                 {categories.map((category) => (
                     <Link key={category.slug} href={`/category/${category.slug}`}>
-                        <span className="md:float-right mt-2 align-middle text-white ml-4 font-mono hover:bg-black cursor-pointer">
+                        <span className="md:float-right mt-2 align-middle text-white ml-4 hover:bg-black cursor-pointer">
                             {category.name}
                         </span>
                 </Link>

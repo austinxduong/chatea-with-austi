@@ -5,8 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        play: ["Play Fair"],
-        mont: ["Montserrat"]
+        rale: ["Raleway"]
       }
     },
   },
