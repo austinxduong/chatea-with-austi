@@ -6,7 +6,7 @@ export default function Home ({ posts }) {
   return (
     <div className="container mx-auto px-10 mb-8 opacity-96">
       <Head>
-        <title>austinxduong ☁️✨</title>
+        <title>austinxduong 🕊️✨</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
       </Head>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
