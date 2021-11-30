@@ -7,7 +7,7 @@ export default function Home ({ posts }) {
     <div className="container mx-auto px-10 mb-8 bg-white opacity-95">
       <Head>
         <title>austinxduong</title>
-        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="public/images/favicon.ico" type="image/x-icon" />
       </Head>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
