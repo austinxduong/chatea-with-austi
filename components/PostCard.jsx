@@ -4,11 +4,11 @@ import moment from 'moment';
 
 const PostCard = ({ post }) => (
     <div className="bg-white shadow-lg p-0 lg:p-8 pb-12 mb-8">
-      <div className="relative overflow-hidden shadow-md pb-80 mb-6">
+      <div className="relative overflow-hidden  pb-80 mb-6">
         <img 
             src={post.featuredImage.url} 
             alt="" 
-            className="object-center absolute h-80 w-full object-contain shadow-lg" 
+            className="object-top absolute h-80 w-full object-contain shadow-lg" 
         />
       </div>
   
