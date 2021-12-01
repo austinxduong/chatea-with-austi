@@ -22,7 +22,23 @@ const PostWidget = ({ categories, slug }) => {
 
     return (
         <div className="bg-white shadow-lg p-3 mb-3 transition duration-500 ease transform hover:-translate-y-1">
-            PostWidget placeholder
+           <h3 className="mb-8 border-b pb-b4">
+               {slug? 'Related Posts': 'Latest Posts'}
+           </h3>
+          {relatedPosts.map((post =>
+            <div key={post.title} className="flex items-center w-full mb-4">
+                <div className="w-16 flex none">
+                    <img
+                        alt={post.title}
+                        height="100px"
+                        width="100px"
+                        className="align-middle transition duration-500 ease transform hover:-translate-y-1"
+                        src={post.featuredImage.url}
+                    />
+
+                </div>
+            </div>
+            ))}
         </div>
     )
 }
