@@ -35,7 +35,11 @@ const PostWidget = ({ categories, slug }) => {
                         className="align-middle transition duration-500 ease transform hover:-translate-y-1"
                         src={post.featuredImage.url}
                     />
-
+                </div>
+                <div className="flex-grow ml-4">
+                    <p>
+                       {moment(post.createdAt).format('MMM DD, YYYY')} 
+                    </p>
                 </div>
             </div>
             ))}
