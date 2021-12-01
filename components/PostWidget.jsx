@@ -21,7 +21,7 @@ const PostWidget = ({ categories, slug }) => {
     console.log(relatedPosts);
 
     return (
-        <div className="bg-white shadow-lg p-3 mb-3">
+        <div className="bg-white shadow-lg p-3 mb-3 transition duration-500 ease transform hover:-translate-y-1">
             PostWidget placeholder
         </div>
     )
