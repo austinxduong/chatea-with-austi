@@ -30,6 +30,24 @@ Model 2:
     Category:
         ■ Name
         ■ Slug
+        ■ Post
+        
+Model 3:
+    Comment:
+        ■ Name
+        ■ Email
+        ■ Comment
+
+Model 4:
+    Post: 
+        ■ Title
+        ■ Slug
+        ■ Excerpt
+        ■ Content
+        ■ Featured Image
+        ■ Featured Post
+        ■ Author
+        ■ Categories
 ```
 #### Product Roadmap 🐎 :
 ```
@@ -38,14 +56,32 @@ Model 2:
 
 #### Enhancement Request(s) ✨ : 
 ```
+- some spotify api in the future 🎶
 
 ```
 
 #### Ticket(s) 🦄 : 
-```
+```diff
 ■ Resolved:
++ Bug:"Warning: Each child in a list should have a unique “key” prop"
+    - passed in index as second argument, assign index to key prop. assigned node to post prop
++ Bug: "Build Failed" - something about Netlify dependencies 
+    - migrated to vercel
 
 ■ WIP: 
+- Bug: Font "Raleway" renders as global font family in local/dev environment. But prod renders "Playfair" as entire font family instead.
+    - attempted to create font family custom rule on tailwind.config file for raleway
+    - attempted to ensure matching names in global.scss for font family key/prop
+    - ensured correct import url for Raleway font
+    - ensured correct spelling for font name in targeted class
+    - cleared all cache in both chrome & brave browsers
+    - switched from raleway font to outfit font
+    - moved fontfamily key/prop value out of extend object, into theme object via tailwind.config
+    - ensured proper syntax for custom css font family
+    - ensured proper syntax for global.scss font family key/prop value
+    - verified font name is passed in the dom via dev tools. but actual font is not rendered on client
+    (isolate the issue even more)
+        - font renders locally, but not prod. so it works. it seems the request is being made from the client, but the request isn't being sent
 
 ```
 
