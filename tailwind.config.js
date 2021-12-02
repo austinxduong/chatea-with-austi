@@ -1,17 +1,10 @@
 
    
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: ['./pages/**/*.{js,ts,jsx,tsx,scss}', './components/**/*.{js,ts,jsx,tsx,scss}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    fontFamily: {
-      'outfit': ['Outfit']
-    },
     extend: {
-      colors: {
-        fuchsia: '#F181F1'
-        },
-
     },
   },
   variants: {
