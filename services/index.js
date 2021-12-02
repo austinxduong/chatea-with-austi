@@ -82,7 +82,7 @@ return result.posts;
 export const getCategories = async () => {
   const query = gql `
     query GetCategories {
-      categories: {
+      categories {
         name
         slug
       }
