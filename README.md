@@ -79,6 +79,7 @@ Model 4:
     - moved fontfamily key/prop value out of extend object, into theme object via tailwind.config
     - ensured proper syntax for custom css font family
     - ensured proper syntax for global.scss font family key/prop value
+    - verified font name is passed in the dom via dev tools. but actual font is not rendered on client
 
 ```
 
