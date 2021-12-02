@@ -21,7 +21,7 @@ const PostWidget = ({ categories, slug }) => {
     console.log(relatedPosts);
 
     return (
-        <div className="bg-white shadow-lg p-3 mb-3 transition duration-500 ease transform hover:-translate-y-1">
+        <div className="bg-white shadow-lg p-3 mb-3">
            <h3 className="mb-8 border-b pb-b4">
                {slug? 'Related Posts': 'Latest Inspirations'}
            </h3>
@@ -32,17 +32,19 @@ const PostWidget = ({ categories, slug }) => {
                         alt={post.title}
                         height="100px"
                         width="100px"
-                        className="align-middle transition duration-500 ease transform hover:-translate-y-1"
+                        className="align-middle"
                         src={post.featuredImage.url}
                     />
                 </div>
-                <div className="flex-grow ml-4">
+                <div className="flex-grow ml-4 transition duration-500 ease transform hover:-translate-y-1">
                     <p>
                        {moment(post.createdAt).format('MMM DD, YYYY')} 
                     </p>
+                    <div className="hover:text-pink-600">
                     <Link href={`/post/${post.slug}`} className="text-md" key={post.title}>
                         {post.title}
                     </Link>
+                    </div>
                 </div>
             </div>
             ))}
