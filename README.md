@@ -75,6 +75,10 @@ Model 4:
     - ensured correct import url for Raleway font
     - ensured correct spelling for font name in targeted class
     - cleared all cache in both chrome & brave browsers
+    - switched from raleway font to outfit font
+    - moved fontfamily key/prop value out of extend object, into theme object via tailwind.config
+    - ensured proper syntax for custom css font family
+    - ensured proper syntax for global.scss font family key/prop value
 
 ```
 
