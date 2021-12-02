@@ -8,6 +8,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  // for some reason only shows san-serif on production, but locally shows outfit custom font 
   font-family: 'Outfit', sans-serif;
   &:before{
     content:'';
