@@ -80,6 +80,8 @@ Model 4:
     - ensured proper syntax for custom css font family
     - ensured proper syntax for global.scss font family key/prop value
     - verified font name is passed in the dom via dev tools. but actual font is not rendered on client
+    (isolate the issue even more)
+        - font renders locally, but not prod. so it works. it seems the request is being made from the client, but the request isn't being sent
 
 ```
 
