@@ -9,6 +9,7 @@ module.exports = {
         sans: ['Outfit', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
         rale: ['Raleway', 'sans-serif'],
+        arimo: ['Arimo'],
       },
     },
   },
