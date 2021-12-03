@@ -1,18 +1,30 @@
 import React, { useContext} from 'react'
+import { useEffect, useState } from 'react';
 
 import Link from 'next/link';
 import { Categories } from '.';
+import { getCategories } from '../services';
 
-const categories = [{name: 'Personal Development', slug: 'Personal Development'}, {name: 'Professional Development', slug: 'professionaldevelopement'}]
+const categories = [{name: 'Professional', slug: 'professional'}, 
+                    {name: 'Personal', slug: 'personal'}, 
+                    {name: 'Fine Arts', slug:'fine-arts'}, 
+                    {name: 'Technology', slug:'technolog'}]
 
 const Header = () => {
+    const [categories, setCategories] = useState([]);
+
+    useEffect(() => {
+        getCategories()
+            .then((newCategories) => setCategories(newCategories))
+    }, []);
+
     return (
         <div className="container mx-auto px-10 mb-3 bg-black">
             <div className="w-full inline-block py-7 hover:text-black">
                 <div className="md:float-left block">
                 <Link href="/">
                     <span className="cursor-pointer text-4xl text-white">
-                        <h1 className="transition duration-700 text-center mb-8 font-arimo cursor-pointer hover:text-black">
+                        <h1 id="header" className="transition duration-700 text-center mb-8 font-arimo cursor-pointer hover:text-black">
                         Chatty, Chatea, with Austi
                         </h1>
                     </span>
