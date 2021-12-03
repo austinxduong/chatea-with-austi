@@ -67,9 +67,7 @@ Model 4:
     - passed in index as second argument, assign index to key prop. assigned node to post prop
 + Bug: "Build Failed" - something about Netlify dependencies 
     - migrated to vercel
-
-■ WIP: 
-- Bug: Font "Raleway" renders as global font family in local/dev environment. But prod renders "Playfair" as entire font family instead.
++ Bug: Font "Raleway" renders as global font family in local/dev environment. But prod renders "Playfair" as entire font family instead.
     - attempted to create font family custom rule on tailwind.config file for raleway
     - attempted to ensure matching names in global.scss for font family key/prop
     - ensured correct import url for Raleway font
@@ -82,6 +80,8 @@ Model 4:
     - verified font name is passed in the dom via dev tools. but actual font is not rendered on client
     (isolate the issue even more)
         - font renders locally, but not prod. so it works. it seems the request is being made from the client, but the request isn't being sent
+
+■ WIP: 
 
 ```
 
