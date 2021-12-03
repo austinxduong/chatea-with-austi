@@ -8,6 +8,7 @@ export default function Home ({ posts }) {
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap" rel="stylesheet" />
 
         <title>austinxduong 🕊️✨</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
