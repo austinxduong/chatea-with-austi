@@ -8,7 +8,7 @@ import { getCategories } from '../services';
 const categories = [{name: 'Professional', slug: 'professional'}, 
                     {name: 'Personal', slug: 'personal'}, 
                     {name: 'Fine Arts', slug:'fine-arts'}, 
-                    {name: 'Technology', slug:'technolog'}]
+                    {name: 'Technology', slug:'technology'}]
 
 const Header = () => {
     const [categories, setCategories] = useState([]);
@@ -24,7 +24,7 @@ const Header = () => {
                 <div className="md:float-left block">
                 <Link href="/">
                     <span className="cursor-pointer text-4xl text-white">
-                        <h1 id="header" className="transition duration-700 text-center mb-8 font-arimo cursor-pointer hover:text-black">
+                        <h1 id="header" className=" uppercase transition duration-700 text-center mb-8 font-arimo cursor-pointer hover:text-black">
                         Chatty, Chatea, with Austi
                         </h1>
                     </span>
