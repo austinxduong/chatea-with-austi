@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="md:float-left block">
                 <Link href="/">
                     <span className="cursor-pointer font-Outfit text-4xl">
-                        <h1 className="transition duration-700 text-center mb-8 cursor-pointer hover:text-white">
+                        <h1 className="transition duration-700 text-center mb-8 font-sans cursor-pointer hover:text-white">
                         Chatty, Chatea, with Austi
                         </h1>
                     </span>
