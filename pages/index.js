@@ -7,6 +7,7 @@ export default function Home ({ posts }) {
     <div className="container mx-auto px-10 mb-8 opacity-96">
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet" />
         <title>austinxduong 🕊️✨</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
       </Head>

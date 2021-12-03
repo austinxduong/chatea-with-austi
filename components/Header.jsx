@@ -11,8 +11,8 @@ const Header = () => {
             <div className="border-b w-full inline-block border-red-100 py-8">
                 <div className="md:float-left block">
                 <Link href="/">
-                    <span className="cursor-pointer font-Outfit text-4xl">
-                        <h1 className="transition duration-700 text-center mb-8 font-sans cursor-pointer hover:text-white">
+                    <span className="cursor-pointer font-bold text-4xl">
+                        <h1 className="transition duration-700 text-center mb-8 font-rale cursor-pointer hover:text-white">
                         Chatty, Chatea, with Austi
                         </h1>
                     </span>
