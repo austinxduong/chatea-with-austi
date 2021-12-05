@@ -1,8 +1,8 @@
 import React from 'react'
 
-const PostDetail = () => {
+const PostDetail = ({ post }) => {
     return (
-        <div>
+        <div className='bg-white shadow-lg lg:p-3 pb-5 mb-8'>
             <h1>Post Detail</h1>
         </div>
     )
