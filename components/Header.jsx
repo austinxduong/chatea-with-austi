@@ -7,7 +7,7 @@ import { getCategories } from '../services';
 
 const categories = [{name: 'Professional', slug: 'professional'}, 
                     {name: 'Personal', slug: 'personal'}, 
-                    {name: 'Fine Arts', slug:'fine-arts'}, 
+                    {name: 'Fine Arts', slug:'finearts'}, 
                     {name: 'Technology', slug:'technology'}]
 
 const Header = () => {

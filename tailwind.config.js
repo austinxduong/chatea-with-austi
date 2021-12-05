@@ -11,8 +11,8 @@ module.exports = {
         rale: ['Raleway', 'sans-serif'],
         arimo: ['Arimo'],
       },
-    },
   },
+},
   variants: {
     extend: {},
   },
