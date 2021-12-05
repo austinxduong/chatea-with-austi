@@ -12,7 +12,7 @@ module.exports = {
         arimo: ['Arimo'],
       },
       height: {
-        25: '8rem',
+        25: '10rem',
       }
   },
 },
