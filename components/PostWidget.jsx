@@ -30,7 +30,7 @@ const PostWidget = ({ categories, slug }) => {
                 <div className="w-16 flex none">
                     <img
                         alt={post.title}
-                        height="100px"
+                        height="auto"
                         width="100px"
                         className="align-middle"
                         src={post.featuredImage.url}
