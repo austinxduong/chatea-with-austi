@@ -13,7 +13,7 @@ const PostDetail = ({ post }) => {
             </div>
             <div className="px-5 lg:px-11">
                 <div className="flex items-center mb-8 w-full">
-                    <div className="flex items-center mb-4 lg:p-6 mb-0 w-full">
+                    <div className="flex items-center mb-4 lg:p-2 mb-0 w-full">
                     <img
                         alt={post.author.name}
                         height="30px"
@@ -26,10 +26,10 @@ const PostDetail = ({ post }) => {
                         </p>
                     </div>
                     <div className="font-medium text-gray-700">
-                    <span className="align-middle">{moment(post.createdAt).format('MMM DD, YYYY')}</span>
+                    <span className="align-middle">{moment(post.createdAt).format('MMM DD ✍🏻YYYY')}</span>
                     </div>
                 </div>
-                <h1 className="mb-8 lg:pb-6 lg:mx-6 text-3xl font">{post.title}</h1>
+                <h1 className="mb-8 lg:pb-6 lg:mx-2 text-3xl font">{post.title}</h1>
                 {/* {post.content.raw.children.map((typeObj, index) => (
                     const children = typeObj.children.map((item, itemIndex) => getItem
                     )
