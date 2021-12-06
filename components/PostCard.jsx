@@ -19,7 +19,7 @@ const PostCard = ({ post }) => (
         </Link>
       </h1>
       <div className="block lg:flex text-center items-center justify-center mb-8 w-full">
-        <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8 items-center">
+        <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8 items-center transition duration-500 ease transform hover:-translate-y-1">
         <img
             alt={post.author.name}
             height="30px"
@@ -27,9 +27,11 @@ const PostCard = ({ post }) => (
             className="align-middle rounded-full"
             src={post.author.photo.url}
           />
-          <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">
-              {post.author.name}
-            </p>
+            <a href="https://www.linkedin.com/in/austinxduong/">
+              <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg hover:text-pink-100 duration-400">
+                  {post.author.name}
+              </p>
+            </a>
         </div>
         <div className="font-medium text-gray-700">
           <span className="align-middle">{moment(post.createdAt).format('MMM DD, YYYY')}</span>
