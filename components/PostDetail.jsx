@@ -21,12 +21,16 @@ const PostDetail = ({ post }) => {
                         className="align-middle rounded-full"
                         src={post.author.photo.url}
                     />
-                    <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">
-                        {post.author.name}
-                        </p>
+                    <div className="transition duration-500 ease transform hover:-translate-y-2 inline-block">
+                        <a href="https://www.linkedin.com/in/austinxduong/">
+                            <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg transition duration-700 text-center cursor-pointer hover:text-pink-100">
+                                {post.author.name}
+                            </p>
+                        </a>
+                    </div>
                     </div>
                     <div className="font-medium text-gray-700">
-                    <span className="align-middle">{moment(post.createdAt).format('MMM DD ✍🏻YYYY')}</span>
+                        <span className="align-middle">{moment(post.createdAt).format('MMM DD ✍🏻YYYY')}</span>
                     </div>
                 </div>
                 <h1 className="text-center mb-8 lg:pb-6 lg:mx-2 text-3xl font">{post.title}</h1>
