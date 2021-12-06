@@ -3,7 +3,7 @@ import moment from 'moment';
 
 const PostDetail = ({ post }) => {
     return (
-        <div className='bg-white shadow-lg lg:p-8 pb-12 mb-8'>
+        <div className='bg-white shadow-lg lg:p-0 pb-12 mb-8'>
             <div className="relative overflow-hidden shadow-md mb-6">
             <img
                 src={post.featuredImage.url}
@@ -11,7 +11,7 @@ const PostDetail = ({ post }) => {
                 className="object-top h-full w-full"
             />
             </div>
-            <div className="px-4 lg:px-0">
+            <div className="px-5 lg:px-11">
                 <div className="flex items-center mb-8 w-full">
                     <div className="flex items-center mb-4 lg:p-6 mb-0 w-full">
                     <img
@@ -29,7 +29,7 @@ const PostDetail = ({ post }) => {
                     <span className="align-middle">{moment(post.createdAt).format('MMM DD, YYYY')}</span>
                     </div>
                 </div>
-                <h1 className="mb-8 flex items-center text-3xl font">{post.title}</h1>
+                <h1 className="mb-8 lg:pb-6 lg:mx-6 text-3xl font">{post.title}</h1>
                 {/* {post.content.raw.children.map((typeObj, index) => (
                     const children = typeObj.children.map((item, itemIndex) => getItem
                     )
