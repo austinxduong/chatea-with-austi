@@ -12,7 +12,7 @@ const PostCard = ({ post }) => (
         />
       </div>
   
-      <h1 className="uppercase transition duration-700 text-center mb-8 cursor-pointer hover:text-pink-100 text-3xl font-semibold">
+      <h1 className="uppercase transition duration-700 text-center mb-8 cursor-pointer hover:text-pink-100 text-3xl">
         <Link 
         href={`/post/${post.slug}`}>
         {post.title}
