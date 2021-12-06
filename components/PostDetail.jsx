@@ -13,7 +13,7 @@ const PostDetail = ({ post }) => {
             </div>
             <div className="px-5 lg:px-11">
                 <div className="flex items-center mb-8 w-full">
-                    <div className="flex items-center mb-4 lg:p-2 mb-0 w-full">
+                    <div className="flex items-center mb-4 lg:p-2 mb-0 w-full transition duration-500 ease transform hover:-translate-y-2 inline-block">
                     <img
                         alt={post.author.name}
                         height="30px"
@@ -21,7 +21,7 @@ const PostDetail = ({ post }) => {
                         className="align-middle rounded-full"
                         src={post.author.photo.url}
                     />
-                    <div className="transition duration-500 ease transform hover:-translate-y-2 inline-block">
+                    <div className="">
                         <a href="https://www.linkedin.com/in/austinxduong/">
                             <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg transition duration-700 text-center cursor-pointer hover:text-pink-100">
                                 {post.author.name}
