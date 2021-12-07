@@ -19,7 +19,7 @@ const Header = () => {
     }, []);
 
     return (
-        <div className="container mx-auto h-25 md:h-24 px-10 mb-3 bg-black">
+        <div className="container mx-auto h-25 md:h-24 px-10 mb-3 bg-char-100">
             <div className="w-full inline-block py-7 hover:text-black">
                 <div className="md:float-left block">
                 <Link href="/">
