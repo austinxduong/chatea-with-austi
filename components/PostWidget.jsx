@@ -21,12 +21,12 @@ const PostWidget = ({ categories, slug }) => {
     console.log(relatedPosts);
 
     return (
-        <div className="bg-white shadow-lg p-3 mb-3">
+        <div className="bg-white shadow-lg p-3 mb-3 animate-fade-in-up">
            <h3 className=" uppercase mb-8 border-b pb-b4">
                {slug? 'Explore More': 'Latest Inspirations:'}
            </h3>
           {relatedPosts.map((post =>
-            <div key={post.title} className="flex items-center w-full mb-4">
+            <div key={post.title} className="flex items-center w-full mb-4 animate-fade-in-up">
                 <div className="w-16 flex none">
                     <img
                         alt={post.title}

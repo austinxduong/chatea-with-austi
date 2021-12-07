@@ -2,6 +2,26 @@ import React from 'react'
 import moment from 'moment';
 
 const PostDetail = ({ post }) => {
+    // const getContentFragment = (index, text, obj, type) => {
+    //     let modifiedText = text;
+
+    //     if (obj) {
+    //         modifiedText = (<b key={index}>{text}</b>)
+    //     }
+    //     if (obj.italic) {
+    //         modifiedText = (<em key={index}>{text}</em>)
+    //     }
+    //     if(obj.underline) {
+    //         modifiedText =(<u key={index}>{text}</u>)
+    //     }
+    // }
+
+    // switch (type) {
+    //     case 'heading-three':
+    //         return <h3 key={index} classname="text-xl font-semibold mb-4>"
+    // }
+
+
     return (
         <div className='bg-white shadow-lg lg:p-0 pb-12 mb-8'>
             <div className="relative overflow-hidden shadow-md mb-6">
@@ -34,11 +54,11 @@ const PostDetail = ({ post }) => {
                     </div>
                 </div>
                 <h1 className="text-center mb-8 lg:pb-6 lg:mx-2 text-3xl font">{post.title}</h1>
-                {/* {post.content.raw.children.map((typeObj, index) => (
-                    const children = typeObj.children.map((item, itemIndex) => getItem
-                    )
-
-                ))} */}
+                    {/* {post.content.raw.children.map((typeObj, index) => {
+                    const children = typeObj.children.map((item, itemIndex) => getContentFragment(itemIndex, item.text, item))
+                    
+                    return getContentFragment(index, children, typeObj, typeObject.type)
+                    })}  */}
             </div>
         </div>
     )
