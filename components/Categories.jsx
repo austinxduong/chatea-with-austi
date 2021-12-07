@@ -14,7 +14,7 @@ const Categories = () => {
     }, []);
 
     return (
-        <div className="bg-white shadow-lg p-3 mb-8">
+        <div className="bg-white shadow-lg p-3 mb-8 animate-fade-in-up">
             <h3 className="uppercase mb-2 border-b pb-b4">
                 Selections:
             </h3>

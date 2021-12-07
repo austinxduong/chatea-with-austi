@@ -19,7 +19,7 @@ const Header = () => {
     }, []);
 
     return (
-        <div className="container mx-auto h-25 md:h-24 px-10 mb-3 bg-char-100">
+        <div className="container mx-auto h-25 md:h-24 px-10 mb-3 bg-char-100 animate-fade-in-down">
             <div className="w-full inline-block py-7 hover:text-black">
                 <div className="md:float-left block">
                 <Link href="/">
@@ -33,7 +33,7 @@ const Header = () => {
             <div className="hidden md:float-left md:contents">
                 {categories.map((category) => (
                     <Link key={category.slug} href={`/category/${category.slug}`}>
-                        <span className="md:float-right mt-2 align-middle text-white ml-4 transition duration-700 text-center mb-8 cursor-pointer hover:text-black cursor-pointer">
+                        <span className="animate-fade-in-down md:float-right mt-2 align-middle text-white ml-4 transition duration-700 text-center mb-8 cursor-pointer hover:text-black cursor-pointer">
                             {category.name}
                         </span>
                 </Link>
