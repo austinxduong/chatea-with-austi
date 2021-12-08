@@ -37,12 +37,12 @@ const PostCard = ({ post }) => (
           <span className="align-middle">{moment(post.createdAt).format('MMM DD, YYYY')}</span>
         </div>
       </div>
-      <p className="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8">
+      <p className="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8 animate-fade-in-up">
         {post.excerpt}
       </p>
       <div className="text-center">
         <Link href={`/post/${post.slug}`}>
-            <span className="transition duration-500 ease transform hover:-translate-y-2 inline-block bg-black text-lg border-b-2 border-aba-100 rounded-none text-white px-8 py-1 cursor-pointer">
+            <span className=" transition duration-500 ease transform hover:-translate-y-2 inline-block bg-black text-lg border-b-2 border-aba-100 rounded-none text-white px-8 py-1 cursor-pointer">
               <p className="transition duration-800 ease hover:text-green-100 font-light">Take a look</p>
             </span>
         </Link>
