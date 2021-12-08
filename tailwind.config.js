@@ -11,6 +11,13 @@ module.exports = {
       arimo: ['Arimo'],
     },
     extend: {
+      boxShadow: {
+        "glow": "0 0 10px #D9DDDC, 0 0 10px #D9DDDC", 
+      },
+      textShadow: {
+        "shine":"0 0 3px #D9DDDC, 0 0 5px #D9DDDC",
+        "shiny":"0 0 3px #D9DDDC, 0 0 20px #D9DDDC",
+      },
       height: {
         25: '10rem',
       },
@@ -67,6 +74,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-textshadow')
+  ],
 
 };
