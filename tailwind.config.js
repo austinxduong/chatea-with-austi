@@ -17,6 +17,7 @@ module.exports = {
       textShadow: {
         "shine":"0 0 3px #D9DDDC, 0 0 5px #D9DDDC",
         "shiny":"0 0 3px #D9DDDC, 0 0 20px #D9DDDC",
+        "char": "0 0 3px #222021, 0 0 20px #222021",
       },
       height: {
         25: '10rem',
