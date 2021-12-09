@@ -1,5 +1,5 @@
-import React from 'react'
-import { useEffect, useState } from 'react';
+
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 import { getCategories } from '../services';
@@ -20,11 +20,11 @@ const Categories = () => {
             </h3>
             {categories.map((category) => (
                 <Link key={category.slug} href={`/category/${category.slug}`}>
-                    <p className="cursor-pointer flex items-center flex-grow ml-4 transition duration-500 ease transform hover:-translate-y-1">
+                    <span className="cursor-pointer flex items-center flex-grow ml-4 transition duration-500 ease transform hover:-translate-y-1">
                         <p className="hover:text-pink-100 duration-400">
                             {category.name}
                         </p>
-                    </p>
+                    </span>
                 </Link>
             ))}
         </div>
