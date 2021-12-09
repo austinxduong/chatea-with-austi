@@ -5,10 +5,10 @@ import Link from 'next/link';
 import { Categories } from '.';
 import { getCategories } from '../services';
 
-const categories = [{name: 'Professional', slug: 'professional'}, 
-                    {name: 'Personal', slug: 'personal'}, 
-                    {name: 'Fine Arts', slug:'fine-arts'}, 
-                    {name: 'Technology', slug:'technology'}]
+// const categories = [{name: 'Professional', slug: 'professional'}, 
+//                     {name: 'Personal', slug: 'personal'}, 
+//                     {name: 'Fine Arts', slug:'fine-arts'}, 
+//                     {name: 'Technology', slug:'technology'}]
 
 const Header = () => {
     const [categories, setCategories] = useState([]);
@@ -31,13 +31,35 @@ const Header = () => {
                 </Link>
             </div>
             <div className="hidden md:float-left md:contents animate-fade-in-down">
-                {categories.map((category) => (
+                <div className="animate-fade-in-down md:float-right mt-2 align-middle text-white space-x-5 ml-4 transition duration-700 text-center mb-8 cursor-pointer cursor-pointer">
+                    <Link href="https://github.com/austinxduong">
+                        <a className="hover:text-shadow-shine">
+                            GitHub
+                        </a>
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/austinxduong/">
+                        <a className="hover:text-shadow-shine">
+                            LinkedIn
+                        </a>
+                    </Link>
+                    <Link href="https://www.facebook.com/axduongproductions/">
+                        <a className="hover:text-shadow-shine">
+                            Facebook
+                        </a>
+                    </Link>
+                    <Link href="https://www.instagram.com/austinxduong/?hl=en">
+                        <a className="hover:text-shadow-shine">
+                            Instagram
+                        </a>
+                    </Link>
+                </div>
+                {/* {categories.map((category) => (
                     <Link key={category.slug} href={`/category/${category.slug}`}>
                         <span className="animate-fade-in-down md:float-right mt-2 align-middle text-white ml-4 transition duration-700 text-center mb-8 cursor-pointer cursor-pointer hover:text-shadow-shine">
                             {category.name}
                         </span>
-                </Link>
-            ))}
+                    </Link>
+            ))} */}
             </div>
         </div>
     </div>
