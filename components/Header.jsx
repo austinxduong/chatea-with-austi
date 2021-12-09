@@ -6,7 +6,7 @@ import { Categories } from '.';
 import { getCategories } from '../services';
 
 const categories = [{name: 'Professional', slug: 'professional'}, 
-                    {name: 'Personal', slug: 'personal'}, 
+                    {name: 'Personal', slug: 'Personal'}, 
                     {name: 'Fine Arts', slug:'fine-arts'}, 
                     {name: 'Technology', slug:'technology'}]
 
