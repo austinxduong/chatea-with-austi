@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import { getPosts, getPostDetails } from '../../services';
 import { Header, PostDetail, Categories, PostWidget, Author, Comments, CommentsForm } from '../../components'
 
