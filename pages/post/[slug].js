@@ -33,7 +33,7 @@ const CategoryPost = ({ post }) => {
     )
 }
 
-export default PostDetails;
+export default CategoryPost;
 
 export async function getStaticProps({ params }) {
     const data = await getPostDetails(params.slug);
