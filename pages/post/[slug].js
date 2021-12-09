@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import { getPosts, getPostDetails } from '../../services';
 import { Header, PostDetail, Categories, PostWidget, Comments, CommentsForm, Loader } from '../../components'
 
-const CategoryPost = ({ post }) => {
+const PostDetails = ({ post }) => {
     const router = useRouter();
 
     if(router.isFallback) {
@@ -33,7 +33,7 @@ const CategoryPost = ({ post }) => {
     )
 }
 
-export default CategoryPost;
+export default PostDetails;
 
 export async function getStaticProps({ params }) {
     const data = await getPostDetails(params.slug);
