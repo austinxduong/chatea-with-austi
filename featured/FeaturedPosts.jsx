@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css' 
+import Image from 'next/image'
 
 import { FeaturedPostCard } from '../components';
 import { getFeaturedPosts } from '../services';
@@ -19,7 +20,7 @@ const responsive = {
         items: 2,
     },
     mobile: {
-        breakpoint: { max: 640, min: 300 },
+        breakpoint: { max: 640, min: 0 },
         items: 2,
     },
 };
@@ -36,20 +37,22 @@ const FeaturedPosts = () => {
     }, []);
   
     const leftArrow = (
-      <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-aba-100">
-          <img src="" alt="left"></img>
+      <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-aba-100 rounded-full opacity-80">
+          {/* Left
+          <image src={"right-arrow.png"} alt="left"></image> */}
       </div>
     );
   
     const rightArrow = (
-      <div className="absolute arrow-btn right-0 text-center py-3 cursor-pointer bg-aba-100">
-          <img src="" alt="right"></img>
+      <div className="absolute arrow-btn right-0 text-center py-3 cursor-pointer bg-aba-100 rounded-full opacity-80">
+          {/* Right
+          <image src="{/right-arrow.png}" alt="right"></image> */}
       </div>
     );
   
     return (
       <div className="mb-8">
-        <Carousel infinite customLeftArrow={leftArrow} customRightArrow={rightArrow} responsive={responsive} itemClass="px-4">
+        <Carousel infinite customLeftArrow={leftArrow} customRightArrow={rightArrow} responsive={responsive} itemClass="px-4 animate-fade-in-down">
           {dataLoaded && featuredPosts.map((post, index) => (
             <FeaturedPostCard key={index} post={post} />
           ))}
