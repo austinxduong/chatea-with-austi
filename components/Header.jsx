@@ -34,6 +34,7 @@ const Header = () => {
                 <div className="animate-fade-in-down md:float-right mt-2 align-middle text-white space-x-5 ml-4 transition duration-700 text-center mb-8 cursor-pointer cursor-pointer">
                     <Link href="https://github.com/austinxduong">
                         <a className="hover:text-shadow-shine">
+                            GitHub
                         </a>
                     </Link>
                     <Link href="https://www.linkedin.com/in/austinxduong/">
