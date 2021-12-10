@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Socials = () => {
     return (
@@ -8,8 +9,8 @@ const Socials = () => {
                 Socials:
             </h3>
             <span className="cursor-pointer flex items-center flex-grow ml-4 transition duration-500 ease transform hover:-translate-y-1">
-                <img
-                    src="github.png"
+                <Image
+                    src={"/github.png"}
                     height="20px"
                     width="20px"
                     alt="Github"
@@ -23,8 +24,8 @@ const Socials = () => {
                 </Link>
             </span>
             <span className="cursor-pointer flex items-center flex-grow ml-4 transition duration-500 ease transform hover:-translate-y-1">
-                <img
-                    src="linkedin.png"
+                <Image
+                    src={"/linkedin.png"}
                     height="20px"
                     width="20px"
                     alt="LinkedIn"
@@ -38,8 +39,8 @@ const Socials = () => {
                 </Link>
             </span>
             <span className="cursor-pointer flex items-center flex-grow ml-4 transition duration-500 ease transform hover:-translate-y-1">
-                <img
-                    src="facebook.png"
+                <Image
+                    src={"/facebook.png"}
                     height="20px"
                     width="20px"
                     alt="facebook"
@@ -53,8 +54,8 @@ const Socials = () => {
                 </Link>
             </span>
             <span className="cursor-pointer flex items-center flex-grow ml-4 transition duration-500 ease transform hover:-translate-y-1">
-                <img
-                    src="instagram.png"
+                <Image
+                    src={"/instagram.png"}
                     height="22px"
                     width="22px"
                     alt="instagram"

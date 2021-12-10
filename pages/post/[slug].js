@@ -1,9 +1,10 @@
 import React from 'react'
 // import { useRouter } from 'next/router'
+import linkedin from './linkedin'
 
 
 import { getPosts, getPostDetails } from '../../services';
-import { Header, PostDetail, Categories, PostWidget, Comments, CommentsForm} from '../../components'
+import { Header, PostDetail, Categories, PostWidget, Comments, CommentsForm, Socials} from '../../components'
 
 const PostDetails = ({ post }) => {
     // const router = useRouter();
@@ -26,6 +27,7 @@ const PostDetails = ({ post }) => {
                     <div className="relative lg:sticky top-8">
                     <PostWidget slug={post.slug} categories={post.categories.map((category) => category.slug)} />
                         <Categories />
+                        <Socials />
                     </div>
                 </div>
             </div>

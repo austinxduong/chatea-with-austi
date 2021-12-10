@@ -2,7 +2,7 @@ import React from 'react';
 // import { useRouter } from 'next/router';
 
 import { getCategories, getCategoryPost } from '../../services';
-import { PostCard, Categories, PostWidget } from '../../components';
+import { PostCard, Categories, PostWidget, Socials } from '../../components';
 
 const CategoryPost = ({ posts }) => {
   // const router = useRouter();
@@ -23,6 +23,7 @@ const CategoryPost = ({ posts }) => {
           <div className="relative lg:sticky top-8">
             <PostWidget />
             <Categories />
+            <Socials />
           </div>
         </div>
       </div>
