@@ -29,14 +29,16 @@ export default function Home ({ posts }) {
           )}
           </div>
           <div className="lg:col-span-4 col-span-1">
-              <div className="lg:sticky relative top-8">
-                <PostWidget />
-                <Categories />
-                <Socials />
+              <div className="lg:sticky relative top-8 pb-2">
+                <div className="max-h-full md:max-h-screen overflow-y-auto">
+                  <PostWidget />
+                  <Categories />
+                  <Socials />
+                </div>
               </div>
           </div>
+          </div>
         </div>
-    </div>
   )
 }
 
