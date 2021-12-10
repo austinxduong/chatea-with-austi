@@ -19,7 +19,8 @@ const responsive = {
         items: 2,
     },
     mobile: {
-        breakpoint: { max: 640, min: 0 },
+        breakpoint: { max: 640, min: 300 },
+        items: 2,
     },
 };
 
@@ -35,14 +36,14 @@ const FeaturedPosts = () => {
     }, []);
   
     const leftArrow = (
-      <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">
-
+      <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-aba-100">
+          <img src="" alt="left"></img>
       </div>
     );
   
     const rightArrow = (
-      <div className="absolute arrow-btn right-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">
-
+      <div className="absolute arrow-btn right-0 text-center py-3 cursor-pointer bg-aba-100">
+          <img src="" alt="right"></img>
       </div>
     );
   
