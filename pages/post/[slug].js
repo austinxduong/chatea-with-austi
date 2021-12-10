@@ -1,6 +1,5 @@
 import React from 'react'
 // import { useRouter } from 'next/router'
-import linkedin from './linkedin'
 
 
 import { getPosts, getPostDetails } from '../../services';
