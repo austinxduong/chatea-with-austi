@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css' 
 
-import { FeaturedPostCard } from '../components'
-import { getFeaturedPosts } from '../services'
+import { FeaturedPostCard } from '../components';
+import { getFeaturedPosts } from '../services';
 
 const responsive = {
     ultraScreenDesktop: {
@@ -26,12 +26,35 @@ const responsive = {
 const FeaturedPosts = () => {
     const [featuredPosts, setFeaturedPosts] = useState([]);
     const [dataLoaded, setDataLoaded] = useState(false);
-
+  
     useEffect(() => {
-        getFeaturedPosts()
-            .then((result) => {
-                setFeaturedPosts(result);
-                setDataLoaded(true);
-            });
-    }, [])
-}
+      getFeaturedPosts().then((result) => {
+        setFeaturedPosts(result);
+        setDataLoaded(true);
+      });
+    }, []);
+  
+    const leftArrow = (
+      <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">
+
+      </div>
+    );
+  
+    const rightArrow = (
+      <div className="absolute arrow-btn right-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">
+
+      </div>
+    );
+  
+    return (
+      <div className="mb-8">
+        <Carousel infinite customLeftArrow={leftArrow} customRightArrow={rightArrow} responsive={responsive} itemClass="px-4">
+          {dataLoaded && featuredPosts.map((post, index) => (
+            <FeaturedPostCard key={index} post={post} />
+          ))}
+        </Carousel>
+      </div>
+    );
+  };
+  
+  export default FeaturedPosts;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link';
 import moment from 'moment';
-import { getRecentPosts, getSimilarPosts } from '../services/functions';
+import { getRecentPosts, getSimilarPosts } from '../services';
 
 
 const PostWidget = ({ categories, slug }) => {
