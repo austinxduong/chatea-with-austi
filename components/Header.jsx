@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 import Link from 'next/link';
 import { Categories } from '.';
-import { getCategories } from '../services';
+import { getCategories } from '../services/functions';
 
 // const categories = [{name: 'Professional', slug: 'professional'}, 
 //                     {name: 'Personal', slug: 'personal'}, 
