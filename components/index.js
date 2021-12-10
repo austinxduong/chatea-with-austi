@@ -8,6 +8,6 @@ export { default as Author } from './Author';
 export { default as CommentsForm } from './CommentsForm';
 export { default as Comments } from './Comments';
 export { default as Socials } from './Socials';
-export { default as FeaturedPosts } from './FeaturedPostCard'
+export { default as FeaturedPostCard } from './FeaturedPostCard';
 // export { default as Loader } from './Loader';
  
