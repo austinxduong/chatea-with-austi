@@ -15,8 +15,8 @@ module.exports = {
         "glow": "0 0 10px #D9DDDC, 0 0 10px #D9DDDC", 
       },
       textShadow: {
-        "shine":"0 0 3px #D9DDDC, 0 0 5px #D9DDDC",
-        "shiny":"0 0 3px #D9DDDC, 0 0 20px #D9DDDC",
+        "shine":"0 0 0px #D9DDDC, 0 0 10px #D9DDDC",
+        "shiny":"0 0 3px #86FAF2, 0 0 20px #A5ADFC",
         "char": "0 0 3px #222021, 0 0 20px #222021",
       },
       height: {
