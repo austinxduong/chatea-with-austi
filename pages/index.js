@@ -4,18 +4,20 @@ import { FeaturedPosts } from '../featured/index';
 import { getPosts } from '../services';
 
 
+
 export default function Home ({ posts }) {
   return (
     <div className="container mx-auto px-1 lg:px-0 mb-8 opacity-96">
             <FeaturedPosts />
-      {/* <Head>
+
+      <Head>
         <meta property="og:image" content="https://i.imgur.com/2WpAoMm.png"/>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap" rel="stylesheet" />
         <title>austinxduong 🕊️✨</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
-      </Head> */}
+      </Head>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
