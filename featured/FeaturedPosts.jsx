@@ -39,15 +39,23 @@ const FeaturedPosts = () => {
   
     const leftArrow = (
       <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-aba-100 rounded-full opacity-80">
-          {/* Left
-          <image src={"right-arrow.png"} alt="left"></image> */}
+          Left
+          <Image 
+            src={"/leftArrow.png"} 
+            width="50px"
+            height="50px"
+            alt="left"></Image>
       </div>
     );
   
     const rightArrow = (
       <div className="absolute arrow-btn right-0 text-center py-3 cursor-pointer bg-aba-100 rounded-full opacity-80">
-          {/* Right
-          <image src="{/right-arrow.png}" alt="right"></image> */}
+          Right
+          <Image 
+            src={"/rightArrow.png"} 
+            width="50px"
+            height="50px"
+            alt="right"></Image>
       </div>
     );
   
