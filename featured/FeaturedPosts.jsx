@@ -41,10 +41,12 @@ const FeaturedPosts = () => {
       <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-aba-100 rounded-full opacity-80">
           Left
           <Image 
-            src={"/leftArrow.png"} 
-            width="50px"
-            height="50px"
-            alt="left"></Image>
+            src={"/"} 
+            height="6"
+            width="6"
+            alt="left arrow"
+            className="h-6 w-6 text-white w-full" fill="none" viewBox="0 0 24 24">
+            </Image>
       </div>
     );
   
@@ -52,10 +54,12 @@ const FeaturedPosts = () => {
       <div className="absolute arrow-btn right-0 text-center py-3 cursor-pointer bg-aba-100 rounded-full opacity-80">
           Right
           <Image 
-            src={"/rightArrow.png"} 
-            width="50px"
-            height="50px"
-            alt="right"></Image>
+            src={"/"}
+            height="6"
+            width="6"
+            alt="right arrow"
+            className="h-6 w-6 text-white w-full" fill="none" viewBox="0 0 24 24">
+            </Image>
       </div>
     );
   
