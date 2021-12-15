@@ -37,16 +37,16 @@ const FeaturedPosts = () => {
       });
     }, []);
   
-    const customLeftArrow = (
+    const leftArrow = (
       <div className="md:absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-aba-100 rounded-full opacity-80">
-          Left
+          {/* Left
           <Image 
             src={"/"} 
             height="6"
             width="6"
             alt="left arrow"
             className="h-6 w-6 text-white w-full" fill="none" viewBox="0 0 24 24">
-            </Image>
+            </Image> */}
       </div>
     );
   
@@ -65,7 +65,7 @@ const FeaturedPosts = () => {
   
     return (
       <div className="mb-8 animate-fade-in-down">
-        <Carousel infinite customLeftArrow={customLeftArrow} rightArrow={rightArrow} responsive={responsive} itemClass="px-4">
+        <Carousel infinite leftArrow={leftArrow} rightArrow={rightArrow} responsive={responsive} itemClass="px-4">
           {dataLoaded && featuredPosts.map((post, index) => (
             <FeaturedPostCard key={index} post={post} />
           ))}
