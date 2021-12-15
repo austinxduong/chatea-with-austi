@@ -11,7 +11,47 @@ export default function Home ({ posts }) {
             <FeaturedPosts />
 
       <Head>
-        <meta property="og:image" content="https://i.imgur.com/D2GyUY7.png"/>
+        <meta 
+        property="og:image"
+        content="https://i.imgur.com/D2GyUY7.png"
+        />
+        <meta
+        property="og:title"
+        content="CHATEA WITH AUSTI— curated & coded by Austin X. Duong, Software Engineer"
+        />
+        <meta
+        property="og:description" 
+        content="Modern Blog Application 2021 — Built with Next.js, React, SASS, TailWind CSS, GraphQL, GraphCMS, Vercel."
+        />
+       <meta
+        property="og:type"
+        content="article"
+        />
+         <meta
+        property="og:url"
+        content="https://chateawithausti.vercel.app/"
+        />
+        <meta 
+        property="twitter:card"
+        content="summary_large_image"
+        />
+        <meta
+        property="twitter:site"
+        content="@austinxduong" 
+        />
+        <meta 
+        property="twitter:title"
+        content="CHATEA WITH AUSTI— curated & coded by Austin X. Duong, Software Engineer"
+        /> 
+          <meta
+        property="twitter:description"
+        content="Modern Blog Application 2021 — Built with Next.js, React, SASS, TailWind CSS, GraphQL, GraphCMS, Vercel."
+        />
+        <meta
+        property="twitter:image"
+        content="https://i.imgur.com/D2GyUY7.png"
+        />
+
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap" rel="stylesheet" />
