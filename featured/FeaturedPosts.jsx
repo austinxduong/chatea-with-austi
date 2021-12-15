@@ -40,20 +40,32 @@ const FeaturedPosts = () => {
     const leftArrow = (
       <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-aba-100 rounded-full opacity-80">
           {/* Left
-          <image src={"right-arrow.png"} alt="left"></image> */}
+          <Image 
+            src={"/"} 
+            height="6"
+            width="6"
+            alt="left arrow"
+            className="h-6 w-6 text-white w-full" fill="none" viewBox="0 0 24 24">
+            </Image> */}
       </div>
     );
   
     const rightArrow = (
-      <div className="absolute arrow-btn right-0 text-center py-3 cursor-pointer bg-aba-100 rounded-full opacity-80">
+      <div className="absolute arrow-btn text-center py-3 cursor-pointer bg-aba-100 rounded-full opacity-80">
           {/* Right
-          <image src="{/right-arrow.png}" alt="right"></image> */}
+          <Image 
+            src={"/"}
+            height="6"
+            width="6"
+            alt="right arrow"
+            className="h-6 w-6 text-white w-full" fill="none" viewBox="0 0 24 24">
+            </Image> */}
       </div>
     );
   
     return (
       <div className="mb-8 animate-fade-in-down">
-        <Carousel infinite customLeftArrow={leftArrow} customRightArrow={rightArrow} responsive={responsive} itemClass="px-4">
+        <Carousel infinite leftArrow={leftArrow} rightArrow={rightArrow} responsive={responsive} itemClass="px-4">
           {dataLoaded && featuredPosts.map((post, index) => (
             <FeaturedPostCard key={index} post={post} />
           ))}
