@@ -19,6 +19,10 @@ export default function Home ({ posts }) {
         property="og:title"
         content="CHATEA WITH AUSTI— curated & coded by Austin X. Duong, Software Engineer"
         />
+        <meta
+        property="og:description" 
+        content="Modern Blog Application 2021 — Built with Next.js, React, SASS, TailWind CSS, GraphQL, GraphCMS, Vercel."
+        />
        <meta
         property="og:type"
         content="article"
