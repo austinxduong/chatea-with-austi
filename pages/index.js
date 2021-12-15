@@ -49,7 +49,7 @@ export default function Home ({ posts }) {
         />
         <meta
         property="twitter:image"
-        content="https://i.imgur.com/D2GyUY7.png"
+        content="https://i.postimg.cc/kMs14PfD/twitter.png"
         />
 
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet" />
