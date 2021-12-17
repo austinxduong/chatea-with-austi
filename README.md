@@ -16,7 +16,7 @@
     ■ SASS
     ■ GraphQL
     ■ GraphCMS
-    ■ Netlify
+    ■ Vercel
 ```
 
 #### Schema Modeling 🦌 : 
