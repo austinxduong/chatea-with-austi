@@ -5,11 +5,6 @@ import Link from 'next/link';
 import { Categories } from '.';
 import { getCategories } from '../services';
 
-// const categories = [{name: 'Professional', slug: 'professional'}, 
-//                     {name: 'Personal', slug: 'personal'}, 
-//                     {name: 'Fine Arts', slug:'fine-arts'}, 
-//                     {name: 'Technology', slug:'technology'}]
-
 const Header = () => {
     const [categories, setCategories] = useState([]);
 
@@ -53,13 +48,6 @@ const Header = () => {
                         </a>
                     </Link>
                 </div>
-                {/* {categories.map((category) => (
-                    <Link key={category.slug} href={`/category/${category.slug}`}>
-                        <span className="animate-fade-in-down md:float-right mt-2 align-middle text-white ml-4 transition duration-700 text-center mb-8 cursor-pointer cursor-pointer hover:text-shadow-shine">
-                            {category.name}
-                        </span>
-                    </Link>
-            ))} */}
             </div>
         </div>
     </div>
