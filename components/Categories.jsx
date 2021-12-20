@@ -6,11 +6,11 @@ import { getCategories } from '../services';
 
 
 const Categories = () => {
-    const [categories, setCategories] = useState([]);
+    const [categories, updateCategories] = useState([]);
 
     useEffect(() => {
         getCategories()
-            .then((newCategories) => setCategories(newCategories))
+            .then((newCategories) => updateCategories(newCategories))
     }, []);
 
     return (
