@@ -6,12 +6,6 @@ import { Categories } from '.';
 import { getCategories } from '../services';
 
 const Header = () => {
-    const [categories, setCategories] = useState([]);
-
-    useEffect(() => {
-        getCategories()
-            .then((newCategories) => setCategories(newCategories))
-    }, []);
 
     return (
         <div className="container mx-auto h-25 md:h-24 px-10 mb-3 bg-char-100 animate-fade-in-down">
