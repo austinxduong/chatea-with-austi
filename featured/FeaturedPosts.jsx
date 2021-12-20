@@ -26,14 +26,14 @@ const responsive = {
 };
 
 const FeaturedPosts = () => {
-    const [featuredPosts, setFeaturedPosts] = useState([]);
-    const [dataLoaded, setDataLoaded] = useState(false);
+    const [featuredPosts, updateFeaturedPosts] = useState([]);
+    const [dataLoaded, updateDataLoaded] = useState(false);
   
     useEffect(() => {
       getFeaturedPosts()
         .then((result) => {
-          setFeaturedPosts(result);
-          setDataLoaded(true);
+          updateFeaturedPosts(result);
+          updateDataLoaded(true);
       });
     }, []);
   
