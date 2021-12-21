@@ -2,6 +2,7 @@ import React from 'react';
 import Link  from 'next/link';
 import moment from 'moment';
 
+
 const PostCard = ({ post }) => (
     <div className="bg-white shadow-lg p-0 lg:p-8 pb-12 mb-8 animate-fade-in-up">
       <div className="relative overflow-hidden  pb-80 mb-6 animate-fade-in-up">
