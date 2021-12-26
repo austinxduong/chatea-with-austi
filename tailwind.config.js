@@ -11,7 +11,8 @@ module.exports = {
       arimo: ['Arimo'],
       playfair: ['Playfair Display'],
       cormo: ['Cormorant Garamond'],
-      nanu: ['Nanum Myeongjo']
+      nanu: ['Nanum Myeongjo'],
+      corinf: ['Cormorant Infant'],
     },
     extend: {
       boxShadow: {
