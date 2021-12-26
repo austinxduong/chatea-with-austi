@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Socials = () => {
     return (
         <div className="bg-white p-3 mb-20 animate-fade-in-up">
-            <h3 className="uppercase mb-2 border-b pb-b4 animate-fade-in-up">
+            <h3 className=" font-nanu uppercase mb-2 border-b pb-b4 animate-fade-in-up">
                 Socials:
             </h3>
             <span className="cursor-pointer flex items-center flex-grow ml-4 transition duration-500 ease transform hover:-translate-y-1 animate-fade-in-up">
