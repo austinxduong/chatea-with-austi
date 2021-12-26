@@ -15,7 +15,7 @@ const Categories = () => {
 
     return (
         <div className="bg-white shadow-lg p-3 mb-3 animate-fade-in-up">
-            <h3 className="uppercase mb-2 border-b pb-b4">
+            <h3 className="font-nanu uppercase mb-2 border-b pb-b4">
                 Selections:
             </h3>
             {categories.map((category) => (
