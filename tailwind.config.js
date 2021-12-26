@@ -9,6 +9,9 @@ module.exports = {
       poppins: ['Poppins', 'sans-serif'],
       rale: ['Raleway', 'sans-serif'],
       arimo: ['Arimo'],
+      playfair: ['Playfair Display'],
+      cormo: ['Cormorant Garamond'],
+      nanu: ['Nanum Myeongjo']
     },
     extend: {
       boxShadow: {
