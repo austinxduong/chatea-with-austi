@@ -20,16 +20,16 @@ const PostCard = ({ post }) => (
         </Link>
       </h1>
       <div className="block lg:flex text-center items-center justify-center mb-8 w-full">
-        <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8 items-center transition duration-500 ease transform hover:-translate-y-1">
+        <div className="font-sur uppercase flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8 items-center transition duration-500 ease transform hover:-translate-y-1">
         <img
             alt={post.author.name}
             height="30px"
             width="30px"
-            className="align-middle rounded-full"
+            className="align-middle rounded-full text-sm"
             src={post.author.photo.url}
           />
             <a href="https://www.linkedin.com/in/austinxduong/">
-              <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg hover:text-pink-100 duration-400">
+              <p className="text-sm inline align-middle text-gray-700 ml-2 hover:text-pink-100 duration-400">
                   {post.author.name}
               </p>
             </a>

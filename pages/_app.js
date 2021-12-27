@@ -9,6 +9,8 @@ export default function MyApp({ Component, pageProps }) {
       <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet"></link>
       <Component {...pageProps} />
     </Layout>
   )
