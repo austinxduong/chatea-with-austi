@@ -5,15 +5,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['Outfit', 'sans-serif'],
-      poppins: ['Poppins', 'sans-serif'],
-      rale: ['Raleway', 'sans-serif'],
       arimo: ['Arimo'],
-      play: ['Playfair Display'],
-      cormo: ['Cormorant Garamond'],
       nanu: ['Nanum Myeongjo'],
       corinf: ['Cormorant Infant'],
-      bod:['Bodoni Moda'],
       sur: ['Suranna']
     },
     extend: {
