@@ -5,6 +5,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
+      sans: ['Outfit', 'sans-serif'],
       arimo: ['Arimo'],
       nanu: ['Nanum Myeongjo'],
       corinf: ['Cormorant Infant'],
