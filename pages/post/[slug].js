@@ -1,16 +1,12 @@
 import React from 'react'
-// import { useRouter } from 'next/router'
+
 
 
 import { getPosts, getPostDetails } from '../../services';
 import { Header, PostDetail, Categories, PostWidget, Comments, CommentsForm, Socials} from '../../components'
 
 const PostDetails = ({ post }) => {
-    // const router = useRouter();
 
-    // if(router.isFallback) {
-    //     <Loader />
-    // }
 
     return (
         <div className="container mx-auto px-0 mb-8">
