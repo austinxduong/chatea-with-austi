@@ -58,7 +58,7 @@ const PostDetail = ({ post }) => {
                         alt={post.author.name}
                         height="30px"
                         width="30px"
-                        className="align-middle rounded-full"
+                        className="align-middle rounded-full text-sm"
                         src={post.author.photo.url}
                     />
                     <div className="">
