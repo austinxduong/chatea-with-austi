@@ -61,12 +61,12 @@ const PostDetail = ({ post }) => {
                         className="align-middle rounded-full text-sm"
                         src={post.author.photo.url}
                     />
-                    <div className="">
-                        <a href="https://www.linkedin.com/in/austinxduong/">
-                            <p className="inline align-middle text-gray-700 ml-2 text-lg transition duration-700 text-center cursor-pointer hover:text-pink-100">
-                                {post.author.name}
-                            </p>
-                        </a>
+                    <div className="text-xs">
+                      <a href="https://www.linkedin.com/in/austinxduong/">
+                        <p className="text-sm inline align-middle text-gray-700 ml-2 hover:text-pink-100 duration-400">
+                          {post.author.name}
+                        </p>
+                      </a>
                     </div>
                     </div>
                     <div className="text-gray-700">
