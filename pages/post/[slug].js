@@ -1,7 +1,4 @@
 import React from 'react'
-
-
-
 import { getPosts, getPostDetails } from '../../services';
 import { Header, PostDetail, Categories, PostWidget, Comments, CommentsForm, Socials} from '../../components'
 
