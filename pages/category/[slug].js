@@ -1,15 +1,10 @@
 import React from 'react';
-// import { useRouter } from 'next/router';
 
 import { getCategories, getCategoryPost } from '../../services';
 import { PostCard, Categories, PostWidget, Socials } from '../../components';
 
 const CategoryPost = ({ posts }) => {
-  // const router = useRouter();
 
-  // if (router.isFallback) {
-  //   return <Loader />;
-  // }
 
   return (
     <div className="container mx-auto px-0 mb-8">
@@ -31,6 +26,7 @@ const CategoryPost = ({ posts }) => {
   );
 };
 export default CategoryPost;
+
 
 export async function getStaticProps({ params }) {
   const posts = await getCategoryPost(params.slug);
