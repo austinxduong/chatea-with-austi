@@ -51,7 +51,7 @@ const FeaturedPosts = () => {
   
     return (
       <div className="mb-8 animate-fade-in-down">
-        <Carousel infinite leftArrow={leftArrow} rightArrow={rightArrow} responsive={responsive} itemClass="px-4">
+        <Carousel showDots={true} transitionDuration={100} swipeable={true} draggable={true} infinite leftArrow={leftArrow} rightArrow={rightArrow} responsive={responsive} itemClass="px-4">
           {dataLoaded && featuredPosts.map((post, index) => (
             <FeaturedPostCard key={index} post={post} />
           ))}
