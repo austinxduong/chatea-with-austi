@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link';
 import moment from 'moment';
-import { getRecentPosts, getSimilarPosts } from '../services';
+import { getLatestInspoPosts, getSimilarPosts } from '../services';
 
 
 const PostWidget = ({ categories, slug }) => {
@@ -12,7 +12,7 @@ const PostWidget = ({ categories, slug }) => {
             getSimilarPosts(categories, slug)
                 .then((result) => updateRelatedPosts(result))
         } else {
-            getRecentPosts()
+            getLatestInspoPosts()
                 .then((result) => updateRelatedPosts(result))
         }
         

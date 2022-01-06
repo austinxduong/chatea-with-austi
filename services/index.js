@@ -37,7 +37,7 @@ export const getPosts = async () => {
     return result.postsConnection.edges;
 }
 
-export const getRecentPosts = async () => {
+export const getLatestInspoPosts = async () => {
   const query = gql `
       query GetPostDetails() {
         posts(
