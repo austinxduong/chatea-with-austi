@@ -2,7 +2,7 @@ import { request, gql } from 'graphql-request';
 
 const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT;
 
-export const getPosts = async () => {
+export const getAllPosts = async () => {
     const query = gql`
       query MyQuery {
         postsConnection(orderBy: id_DESC) {
