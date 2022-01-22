@@ -4,20 +4,6 @@ import moment from 'moment';
 const PostDetail = ({ post }) => {
     const getContentFragment = (index, text, obj, type) => {
       let modifiedText = text;
-  
-      if (obj) {
-        if (obj.bold) {
-          modifiedText = (<b key={index}>{text}</b>);
-        }
-  
-        if (obj.italic) {
-          modifiedText = (<em key={index}>{text}</em>);
-        }
-  
-        if (obj.underline) {
-          modifiedText = (<u key={index}>{text}</u>);
-        }
-      }
     };
 
 
